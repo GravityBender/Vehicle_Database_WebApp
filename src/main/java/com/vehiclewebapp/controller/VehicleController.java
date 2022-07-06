@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class VehicleController {
 
-    @GetMapping("list")
+    @GetMapping("/list")
     public String showVehicleList(){
         return "list-vehicles";
     }
